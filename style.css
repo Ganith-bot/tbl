@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    background-color: aquamarine;
+    font-family: 'Nerko One', cursive;
+}
+
+#tbl {
+    background: linear-gradient(#91c8c9 0%, #2f66a8 100%);
+    display: table;
+    bottom: 0;
+    font-size: 30px;
+    font-family: cursive;
+    color: #FFFFFF;
+    width: 100%;
+    z-index: 9;
+    height: 100%;
+}
+
+
+
+.imgs {
+    border-radius: 40%;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    float: center;
+    font-size: 21px;
+}
+
+.bio1 {
+    height: 15px;
+    width: 1200px;
+    background-color:black;
+    margin: 10px auto;
+}
+
+a {
+    text-decoration:none;
+    font-size: 30px;
+}
+a:hover {
+    background-color: blue;
+    color:white;
+}
+#contacts {
+    width:100%;
+}
+.contactsmail h1 {
+    display: inline;
+}
+.ganith {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
